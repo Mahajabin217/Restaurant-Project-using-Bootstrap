@@ -2,4 +2,87 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/** Body Part **/
 
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-weight: 700;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover{
+    color: green;
+}
+
+img{
+    min-width: 100%;
+}
+
+/** Navbar Button part **/
+
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;  
+}
+
+.btn-brand{
+    color: white;
+    font-weight: 500;
+    border-color: rgb(3, 87, 3);
+    background-color: rgb(3, 87, 3);
+}
+
+.btn-brand:hover{
+    color: white;
+    border-color: rgb(8, 154, 8);
+    background-color:rgb(8, 154, 8);
+}
+
+/** Slider part **/
+
+.slide-1{
+    background:url('pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-2{
+    background:url('pic_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/** Slider prev & next cursor **/
+
+#carousel-slider h5::after,
+#carousel-slider h5::before{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgb(3, 87, 3);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
