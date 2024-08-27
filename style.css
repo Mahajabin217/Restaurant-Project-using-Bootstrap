@@ -115,3 +115,16 @@ section{
 
 /** Menu bar part **/
 
+#menu .nav-pills .nav-link {
+    background-color: white;
+    color: rgb(3, 87, 3);
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 100px;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: rgb(3, 87, 3);
+    color: white;
+}
+
